@@ -1,0 +1,459 @@
+@font-face
+  {
+  font-family: impact;
+  src: url('Impact.ttf');
+  }
+
+body
+  {
+  background-color: black;
+  font-family: verdana;
+  color: white;
+  //min-width: 1100px;
+  margin: 0px;
+  }
+
+.link_background
+  {
+  //background-color: black;
+  }
+
+a:link
+  {
+  font-family: verdana;
+  color: rgb(240, 0, 0);
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+a:visited
+  {
+  font-family: verdana;
+  color: rgb(240, 0, 0);
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+a:hover
+  {
+  font-family: verdana;
+  color: white;
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+a:active
+  {
+  font-family: verdana;
+  color: rgb(240, 0, 0);
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+header
+  {
+  float: left;
+  width: 100%;
+  background-color: rgb(80, 80, 80);
+  padding: 20px;
+  display: table;
+  margin-bottom: 10px;
+  }
+   
+div.logo
+  {
+  float: left;
+  width: 30%;
+  margin-right: 100px;
+  }
+  
+span.logo_black
+  {
+  font-family: impact, verdana;
+  color: rgb(0, 0, 0);
+  font-size: 25pt;
+  }
+  
+span.logo_white
+  {
+  font-family: impact, verdana;
+  color: rgb(255, 255, 255);
+  font-size: 25pt;
+  }
+
+.header_link_container
+  {
+  float: left;
+  margin-right: 50px;
+  margin-top: 10px;
+  }
+  
+div.header_link
+  {
+  color: white;
+  font-weight: normal;
+  font-family: verdana;
+  font-size: 12pt;
+  border: 2px solid white;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+  display: inline;
+  }
+
+.menu
+  {
+  display: none;
+  border: 1px solid white;
+  position: absolute;
+  background-color: black;
+  padding: 15px;
+  z-index: 2;
+  }
+  
+.menu_link
+  {
+  margin-left: 20px;
+  }
+
+#about_us
+  {
+  text-align: justify;
+  width: 300px;
+  font-size: 10pt;
+  line-height: 200%;
+  }
+
+#games_menu
+  {
+  font-size: 10pt;
+  }
+
+.header_button
+  {
+  float: left;
+  margin-right: 20px;
+  }
+  
+div.header_button_row
+  {
+  float: right;
+  margin-right: 50px;
+  }
+
+#splash_section
+  {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(32, 32, 32);
+  }
+
+#splash_slider1
+  {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  }
+
+#splash_slider2
+  {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  z-index: 0;
+  }
+  
+img.splash
+  {
+  width: 100%;
+  }
+
+div.splash_info
+  {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .8);
+  width: 250px;
+  height: 60%;
+  top: 70px;
+  right: 50px;
+  z-index: 2;
+  padding: 20px;
+  text-align: justify;
+  //border: 2px solid white;
+  }
+  
+span.splash_title
+  {
+  font-size: 16pt;
+  }
+
+span.splash_description
+  {
+  font-size: 9pt;//11pt;
+  line-height: 200%;
+  }
+
+#play_button
+  {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  }
+
+#arrow_left
+  {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  }
+
+#arrow_right
+  {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+  }
+
+img.arrow
+  {
+  opacity: 0.6;
+  }
+
+div.splash_dots
+  {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  background-color: black;//rgb(80, 80, 80);
+  }
+
+div.dot
+  {
+  display: inline;
+  margin: 5px 15px;
+  }
+
+img.dot_image
+  {
+  width: 10px;
+  height: 10px;
+  }
+
+div.update_section
+  {
+  width: 100%;
+  }
+
+div.update
+  {
+  display: table-cell;
+  margin: 15px;
+  float: left;
+  width: 29%;
+  height: 450px;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 4px 0px 0px #404040;
+  overflow: hidden;
+  }
+
+div.update_header
+  {
+  background-color: rgb(96, 96, 96);
+  padding: 15px;
+  font-family: verdana;
+  color: black;
+  font-size: 14pt;
+  font-weight: bold;
+  position: relative;
+  }
+  
+div.update_content
+  {
+  padding: 20px;
+  font-family: verdana;
+  font-size: 10pt;
+  color: white;
+  text-align: justify;
+  overflow: hidden;
+  line-height: 150%;
+  }
+
+div.centered_content
+  {
+  background-color: rgb(32, 32, 32);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 4px 0px 0px #404040;
+  padding: 20px;
+  text-align: center;
+  }
+
+div.update_header_text
+  {
+  width: 75%;
+  }
+  
+div.date
+  {
+  font-family: verdana;
+  color: rgb(48, 48, 48);
+  font-size: 11pt;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  }
+
+img.center
+  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+img.update_image
+  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  }
+  
+div.text
+  {
+  text-align: justify;
+  }
+
+table.center
+  {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+div.game_section
+  {
+  width: 100%;
+  padding: 10px;
+  }
+
+div.game_grid
+  {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;    
+  //border: 1px solid white;
+  text-align: center;
+  }
+
+div.game_tile
+  {
+  width: 260px;//250px;
+  height: 132px;//100px;
+  background-color: rgb(128, 128, 128);
+  margin: 10px;
+  display: inline-block;
+  }
+
+img.game_tile_image
+  {
+  width: 100%;
+  height: 100%;
+  }
+
+@media (min-width: 700px) and (max-width: 1000px),
+        (min-device-width: 700px) and (max-device-width: 1000px)
+  {
+  img.splash
+    {
+    margin-top: auto;
+    }
+
+  div.splash_info
+    {
+    height: auto;
+    top: 0px;
+    right: 50px;
+    bottom: 0px;
+    }
+  }
+
+@media (max-width: 700px), (max-device-width: 700px)
+  {
+  div.logo
+    {
+    width: 25%;
+    margin-right: 20px;
+    }
+
+  span.logo_black
+    {
+    font-size: 30pt;
+    }
+  
+  span.logo_white
+    {
+    font-size: 30pt;
+    }
+
+  div.header_link
+    {
+    font-size: 20pt;
+    }
+
+  #about_us
+    {
+    font-size: 15pt;
+    }
+
+  #games_menu
+    {
+    font-size: 15pt;
+    }
+
+  .header_button
+    {
+    width: 60px;
+    height: 60px;
+    }
+
+  div.splash_info
+    {
+    height: auto;
+    top: 0px;
+    right: 50px;
+    bottom: 0px;
+    }
+
+  span.splash_title
+    {
+    font-size: 20pt;
+    }
+
+  span.splash_description
+    {
+    font-size: 15pt;
+    line-height: 1.5;
+    }
+
+  #play_button
+    {
+    visibility: hidden;
+    }
+
+/*  img.dot_image
+    {
+    width: 20px;
+    height: 20px;
+    }
+*/  }
